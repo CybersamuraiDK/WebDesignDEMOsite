@@ -1,0 +1,201 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<div class="jumbotron jumbotron-fluid">
+
+    <video autoplay muted loop>
+        <source src="/Media/demosite.mp4" type="video/mp4">
+    </video>
+
+    <div class="container text-white">
+        <h1 class="display-1"></h1>
+    </div>
+</div>
+
+<section class="features-icons text-center" style="background-image: url('../../wwwroot/img/parallax2.jpg');">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <i class="icon-screen-desktop m-auto text-primary"></i>
+                    </div>
+                    <h3>ARTIFICIAL INTELLIGENCE</h3>
+                    <p class="lead mb-0">We are specialized in providing AI solutions</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <i class="icon-layers m-auto text-primary"></i>
+                    </div>
+                    <h3>INNOVATION</h3>
+                    <p class="lead mb-0">New techologies are the way to the future</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <i class="icon-check m-auto text-primary"></i>
+                    </div>
+                    <h3>BUISNESS PLANS</h3>
+                    <p class="lead mb-0">We help companies with the integration of AI into their buisness strategy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="showcase">
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2>Fully Responsive Design</h2>
+                <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+            <div class="col-lg-6 my-auto showcase-text">
+                <h2>Updated For Bootstrap 4</h2>
+                <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2>Easy to Use &amp; Customize</h2>
+                <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pricesection">
+
+    <div id="pricing" class="offset">
+
+        <div class="parallax" style="background-image: url('img/parallax.jpg')" ; id="parallaximg">
+
+            <div class="container py-2">
+
+                <div class="heading">
+                    <h3 class="heading">Pricing</h3>
+                    <div class="heading-underline"></div>
+                </div>
+
+                <div class="row justify-content-center text-center px-lg-4 px-xl-5">
+
+                    <div class="col-md-6 col-lg-4 os-animation" data-animation="animate__animated animate__fadeInLeft">
+                        <div class="pricing-column">
+                            <h3 class="border-bottom py-2 mx-3">BASIC</h3>
+                            <p class="lead py-2">The Basic Plan, the best plan to get you started off.</p>
+                            <h4 class="pb-2">Domain Names: 1</h4>
+                            <h4 class="pb-2">Email Addresses: 1</h4>
+                            <h4>Hard Drive: 50GB</h4>
+                            <h1 class="py-3">$49</h1>
+                            <a href="#contact" class="btn btn-secondary btn-sm">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 os-animation" data-animation="animate__animated animate__fadeInUp">
+                        <div class="pricing-column">
+                            <div class="ribbon">Best Value</div>
+                            <h3 class="border-bottom py-2 mx-3 text-nuno font-weight-bold">PRO</h3>
+                            <p class="lead py-2">The Pro Plan, the best overall value you can get.</p>
+                            <h4 class="pb-2">Domain Names: 5</h4>
+                            <h4 class="pb-2">Email Addresses: 3</h4>
+                            <h4>Hard Drive: 100GB</h4>
+                            <h1 class="py-3">$99</h1>
+                            <a href="#contact" class="btn btn-nuno btn-sm">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 os-animation" data-animation="animate__animated animate__fadeInRight">
+                        <div class="pricing-column">
+                            <h3 class="border-bottom py-2 mx-3">PREMIUM</h3>
+                            <p class="lead py-2">Go Premium if you need a little extra space.</p>
+                            <h4 class="pb-2">Domain Names: 10</h4>
+                            <h4 class="pb-2">Email Addresses: 5</h4>
+                            <h4>Hard Drive: 150GB</h4>
+                            <h1 class="py-3">$149</h1>
+                            <a href="#contact" class="btn btn-secondary btn-sm">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="page-footer font-small blue-grey lighten-5">
+
+    <div class="container text-center text-md-left mt-5">
+
+
+        <div class="row mt-3 dark-grey-text">
+
+
+            <div class="col-md-3 col-lg-4 col-xl-3 ">
+                <img src="~/img/robotlogo.png" id="logo-footer" />
+                <p style="font-style:italic">All rights reserved and owned by © Joon 2021 </p>
+
+            </div>
+
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto ">
+
+                <h6 class="text-uppercase font-weight-bold">Products</h6>
+                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <a class="dark-grey-text" href="fremtiden.dk/education">Education</a>
+                </p>
+                <p>
+                    <a class="dark-grey-text" href="#!">MDWordPress</a>
+                </p>
+                <p>
+                    <a class="dark-grey-text" href="#!">BrandFlow</a>
+                </p>
+                <p>
+                    <a class="dark-grey-text" href="fremdriften.dk/privacy">Privacy Policy</a>
+                </p>
+
+            </div>
+
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 ">
+
+                <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+                </p>
+                <p>
+                    <i class="fas fa-envelope mr-3"></i> info@example.com
+                </p>
+                <p>
+                    <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+                </p>
+                <p>
+                    <i class="fas fa-print mr-3"></i> + 01 234 567 89
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+</footer>

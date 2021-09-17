@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Dicegame";
+}
+
+<head>
+    <meta charset="utf-8">
+    <title>DiceGame</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>DICE GAME</h1>
+
+        <div class="dice" id="dice1">
+            <p>Player 1</p>
+            <img class="img1" id="img1" src="https://c.tenor.com/i_L5KauoCcoAAAAi/dice.gif">
+        </div>
+
+        <div class="dice" id="dice2">
+            <p>Player 2</p>
+            <img class="img2" src="https://c.tenor.com/i_L5KauoCcoAAAAi/dice.gif">
+        </div>
+
+        <div>
+            <button class="btn" onclick="dicegame()">Start Game</button>
+        </div>
+
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="~/js/gamefile.js"></script>
+</body>
