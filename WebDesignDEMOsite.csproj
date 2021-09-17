@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Page1\" />
+    <None Remove="Controllers\Page1.cs~RF76cf19.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\vendors\" />
   </ItemGroup>
 
